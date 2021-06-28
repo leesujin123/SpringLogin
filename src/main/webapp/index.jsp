@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP띄우기</title>
+    <title>JDBC 디비연결됨</title>
 </head>
 <body>
 <h1>
-    step1
+    step3-1
 </h1>
-tomcat-jsp
+JDBC 연결됨 mybatis는 아직
 </body>
 </html>
