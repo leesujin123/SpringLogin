@@ -6,4 +6,10 @@
     <select id="dbCheck" resultType="_int">
         SELECT 1 FROM DUAL
     </select>
+
+    <select id="loginCheck" parameterType="com.example.springLogin.vo.MemberVO" resultType="com.example.springLogin.vo.MemberVO">
+        SELECT *
+          FROM login
+         WHERE memberId = #{memberId}
+    </select>
 </mapper>
