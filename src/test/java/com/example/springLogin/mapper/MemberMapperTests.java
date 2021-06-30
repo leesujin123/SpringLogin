@@ -24,4 +24,15 @@ public class MemberMapperTests {
         int result = mapper.dbCheck();
         System.out.println(result);
     }
+
+    @Test
+    public void loginCheck(){
+        MemberVO vo = new MemberVO();
+        vo.setMemberId("lsj4329");
+        vo.setMemberPwd("dltnwls1219");
+
+        MemberVO result = mapper.loginCheck(vo);
+        System.out.println("###");
+        System.out.println(result);
+    }
 }
