@@ -18,13 +18,6 @@ public class MemberMapperTests {
     @Autowired
     MemberMapper mapper;
 
-    // DB 연결 Check
-    @Test
-    public void test(){
-        int result = mapper.dbCheck();
-        System.out.println(result);
-    }
-
     @Test
     public void loginCheck(){
         MemberVO vo = new MemberVO();
