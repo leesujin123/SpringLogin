@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JDBC 디비연결됨</title>
+    <title>main</title>
 </head>
 <body>
 <h1>
-    step3-1
+   Spring Login
 </h1>
-JDBC 연결됨 mybatis는 아직
+<a href="/login.do"> <b>&nbsp;login</b></a>
 </body>
 </html>

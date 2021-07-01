@@ -2,10 +2,9 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.springLogin.mapper.MemberMapper">
-
     <select id="loginCheck" parameterType="com.example.springLogin.vo.MemberVO" resultType="com.example.springLogin.vo.MemberVO">
         SELECT *
           FROM login
-         WHERE memberId = #{memberId}
+         WHERE memberId = #{memberId} AND memberPwd = #{memberPwd}
     </select>
 </mapper>

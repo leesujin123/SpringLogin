@@ -9,9 +9,11 @@
     <title>Login</title>
 </head>
 <body>
-환영합니다~~~!!!!<br />
+<h1>환영합니다~~~!!!!</h1><br />
 login 성공 <br />
 아이디 : ${vo.memberId}<br />
 비밀번호 : ${vo.memberPwd}
+<br />
+<a href="/"> <b>&nbsp;logout</b></a>
 </body>
 </html>
